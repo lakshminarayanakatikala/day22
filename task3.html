@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+        .item{
+            display: grid;
+            grid-template-areas: "img1 img2 img3 img4"
+                                  "item1 item2 item3 item4"
+                                  "p1 p2 p3 p4"
+                                  "img5 img6 img7 img8"
+                                   "item5 item6 item7 item8"
+                                   "p5 p6 p7 p8";
+                                   gap: 20px;
+                                   word-spacing: 5px;
+                                   position: absolute;
+                                   z-index: -1;
+                                   top: 25px;
+        }
+        .img1{
+            grid-area: img1;
+            height: 300px;
+            width: 250px;
+        }
+        .img2{
+            grid-area: img2;
+            height: 300px;
+            width: 250px;
+        }
+        .img3{
+            grid-area: img3;
+            height: 300px;
+            width: 250px;
+        }
+        .img4{
+            grid-area: img4;
+            height: 300px;
+            width: 250px;
+        }
+         .img5{
+            grid-area: img5;
+            height: 300px;
+            width: 250px;
+        }
+        .img6{
+            grid-area: img6;
+            height: 300px;
+            width: 250px;
+        }
+        .img7{
+            grid-area: img7;
+            height: 300px;
+            width: 250px;
+        }
+        .img8{
+            grid-area: img8;
+            height: 300px;
+            width: 250px;
+        } 
+        .item1{
+            grid-area: item1;
+            font-size: 150%;
+
+        }
+        .item2{
+            grid-area: item2;
+            font-size: 150%;
+
+        }
+        .item3{
+            grid-area: item3;
+            font-size: 150%;
+
+        }
+        .item4{
+            grid-area: item4;
+            font-size: 150%;
+
+        }
+         .item5{
+            grid-area: item5;
+            font-size: 150%;
+
+        }
+        .item6{
+            grid-area: item6;
+            font-size: 150%;
+
+        }
+        .item7{
+            grid-area: item7;
+            font-size: 150%;
+
+        }
+        .item8{
+            grid-area: item8;
+            font-size: 150%;
+
+        } 
+        .p1{
+            grid-area: p1;
+            font-size: 120%;
+            word-spacing: 5px;
+            letter-spacing: 1px;
+        }
+        .p2{
+            grid-area: p2;
+            word-spacing: 5px;
+            letter-spacing: 1px;
+        }
+        .p3{
+            grid-area: p3;
+            word-spacing: 5px;
+            letter-spacing: 1px;
+        }
+        .p4{
+            grid-area: p4;
+            word-spacing: 5px;
+            letter-spacing: 1px;
+        }
+         .p5{
+            grid-area: p5;
+            word-spacing: 5px;
+            letter-spacing: 1px;
+        }
+        .p6{
+            grid-area: p6;
+            word-spacing: 5px;
+            letter-spacing: 1px;
+        }
+        .p7{
+            grid-area: p7;
+            word-spacing: 5px;
+            letter-spacing: 1px;
+        }
+        .p8{
+            grid-area: p8;
+            word-spacing: 5px;
+            letter-spacing: 1px;
+        }
+         .nav{
+            background-color: whitesmoke;
+            position: absolute;
+            top: 0px;
+            height: 30px;
+            width: 100%;
+            position: fixed;
+            left: 0px;
+            text-align: center;
+
+         }
+        
+           
+    </style>
+    
+</head>
+<body>
+    <div class="container">
+           <nav class="nav">MY FOOD</nav>
+
+        <div class="item">
+            <img src="https://www.w3schools.com/w3images/sandwich.jpg" class="img1">
+            <p class="item1">The Perfect Sandwich, A Real NYC Classic</p>
+            <p class="p1">Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        
+            <img src="https://www.w3schools.com/w3images/steak.jpg" class="img2">
+            <p class="item2">Let Me Tell You About This Steak</p>
+            <p class="p2">Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        
+            <img src="https://www.w3schools.com/w3images/cherries.jpg"  class="img3">
+            <p class="item3">Cherries, interrupted</p>
+            <p class="p3">Lorem ipsum text praesent tincidunt ipsum lipsum.What else?</p>
+        
+            <img src="https://www.w3schools.com/w3images/wine.jpg" class="img4">
+            <p class="item4">Once Again, Robust Wine and Vegetable Pasta </p>
+            <p class="p4">Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        
+            <img src="https://www.w3schools.com/w3images/popsicle.jpg" class="img5">
+            <p class="item5">All I Need Is a Popsicle</p>
+            <p class="p5">Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        
+            <img src="https://www.w3schools.com/w3images/salmon.jpg" class="img6">
+            <p class="item6">Salmon For Your Skin</p>
+            <p class="p6">Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        
+            <img src="https://www.w3schools.com/w3images/sandwich.jpg" class="img7">
+            <p class="item7">The Perfect Sandwich, A Real Classic</p>
+            <p class="p7">Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        
+            <img src="https://www.w3schools.com/w3images/croissant.jpg" class="img8">
+            <p class="item8">Le French</p>
+            <p class="p8">Lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        </div>
+    </div>
+</body>
+</html>
